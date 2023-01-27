@@ -1,10 +1,11 @@
 <script>
     export let name;
+    export let img;
 </script>
 
 <div id="content">
     <a href="neighbours/{name}">
-    <img src="./src/images/{name.toLowerCase()}.jpg" alt="{name} Portrait">
+    <img src="{img}" alt="{name} Portrait">
     </a>
 </div>
 
