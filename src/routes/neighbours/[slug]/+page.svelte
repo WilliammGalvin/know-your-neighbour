@@ -2,13 +2,14 @@
     export let data;
 
     const name = data.data[0].name;
+    const img = data.data[0].img;
     const story = data.data[0].story;
 </script>
 
 <div id="content">
     <div id="left">
         <h1>{name}</h1>
-        <img src="/src/images/{name.toLowerCase()}.jpg" alt="{name} Portrait">
+        <img src="{img}" alt="{name} Portrait">
     </div>
 
     <div id="right">
