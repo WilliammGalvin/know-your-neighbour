@@ -4,9 +4,17 @@
 
 <div id="content">
     <nav>
-        <li><a href="/">Neighbours</a></li>
-        <li><a href="/mission">Our Mission</a></li>
-        <li><a href="/help">How to Help</a></li>
+        <form action="/">
+            <button>Neighbours</button>
+        </form>
+
+        <form action="/mission">
+            <button>Our Mission</button>
+        </form>
+
+        <form action="/help">
+            <button>How to Help</button>
+        </form>
     </nav>
     
     <div id="slot">
@@ -44,25 +52,31 @@
     }
 
     #content nav {
-        width: 10vw;
+        width: 20vw;
         min-width: fit-content;
-        padding: 0 15px;
+        display: flex;
+        flex-direction: column;
 
         border-right: solid 2px var(--grey);
         text-align: center;
     }
 
-    #content nav li {
-        list-style-type: none;
+    #content nav button {
+        color: black;
+        font-size: 2.3em;
+        padding: 5vh 0;
+        
+        border: none;
+        background-color: transparent;
+
+        transition: 100ms;
     }
 
-    #content nav li a {
-        text-decoration: none;
-        color: black;
-        font-size: 1.5em;
+    #content nav button:hover {
+        color: var(--grey);
     }
 
     #content #slot {
-        width: 90vw;
+        width: 80vw;
     }
 </style>
