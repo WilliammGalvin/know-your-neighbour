@@ -20,6 +20,6 @@
         margin: 0 auto;
         width: 75vw;
         max-width: 800px;
-        font-size: 1.8em;
+        font-size: 1.3em;
     }
 </style>
