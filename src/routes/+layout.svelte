@@ -103,6 +103,7 @@
 
     #content {
         height: 92vh;
+        margin-bottom: 5vh;
     }
 
     #slot {
