@@ -11,13 +11,14 @@
 
 <style>
     #content img {
-        width: 20vw;
+        width: 30vmax;
+        max-width: 300px;
+
         border-radius: 15px;
 
         filter: grayscale(100%);
         -webkit-filter: grayscale(100%);
-        box-shadow: 0 10px 13px 5px rgb(51, 51, 51);
-
+        border: solid 3px black;
 
         transition: 200ms;
     }

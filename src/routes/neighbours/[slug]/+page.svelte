@@ -20,7 +20,7 @@
 <style>
     #content {
         display: flex;
-        margin: 2vh;
+        margin: 5vh;
     }
 
     #content #left {
@@ -41,5 +41,21 @@
         max-width: 50vw;
         font-size: 1.5em;
         padding-bottom: 5vh;
+    }
+
+    @media screen and (max-width: 750px) {
+        #content {
+            width: 100vw;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #content #left {
+            margin-bottom: 5vh;
+        }
+
+        #content #right p {
+            max-width: 75vw;
+        }
     }
 </style>

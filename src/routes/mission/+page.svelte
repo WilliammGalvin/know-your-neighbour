@@ -8,8 +8,7 @@
 
 <style>
     div {
-        text-align: center;
-        margin: 2vh;
+        margin: 5vh;
     }
 
     div h1 {
@@ -19,7 +18,8 @@
 
     div p {
         margin: 0 auto;
-        max-width: 50vw;
+        width: 75vw;
+        max-width: 800px;
         font-size: 1.8em;
     }
 </style>

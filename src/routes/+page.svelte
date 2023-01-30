@@ -14,4 +14,11 @@
         padding-top: 5vh;
         gap: 8vw;
     }
+
+    @media screen and (max-width: 750px) {
+        #content {
+            flex-direction: column;
+            justify-content: normal;
+        }
+    }
 </style>
